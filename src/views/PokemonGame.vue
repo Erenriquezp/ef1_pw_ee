@@ -78,6 +78,7 @@ export default {
          }
       },
       reiniciar() {
+         this.juegoTerminado = false;
          this.puntaje = 0;
          this.intentos = 0;
          this.mostrarResultado = false;
@@ -114,4 +115,5 @@ export default {
       cursor: pointer;
       font-weight: bold;
    }
+
 </style>
